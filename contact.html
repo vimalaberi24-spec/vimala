@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Pre-Owned Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Contact Us</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <textarea placeholder="Message" required></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Pre-Owned Cafe</p>
+</footer>
+
+<script>
+function submitForm(e){
+  e.preventDefault();
+  alert("Message sent successfully!");
+}
+</script>
+
+</body>
+</html>
