@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu - Pre-Owned Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Our Menu</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="menu.html">Menu</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<section>
+  <div class="card">
+    <h3>Cappuccino</h3>
+    <p>₹120</p>
+    <button onclick="order('Cappuccino')">Order</button>
+  </div>
+
+  <div class="card">
+    <h3>Latte</h3>
+    <p>₹140</p>
+    <button onclick="order('Latte')">Order</button>
+  </div>
+
+  <div class="card">
+    <h3>Cold Coffee</h3>
+    <p>₹150</p>
+    <button onclick="order('Cold Coffee')">Order</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Pre-Owned Cafe</p>
+</footer>
+
+<script>
+function order(item){
+  alert(item + " ordered successfully!");
+}
+</script>
+
+</body>
+</html>
